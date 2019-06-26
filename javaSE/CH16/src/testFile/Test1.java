@@ -19,7 +19,7 @@ public class Test1 {
 		 * */
 		//File file = new File("1.txt");  //1.txt在存在于 CH16 项目中的根目录下
 		//File file = new File("/1.txt");  // /1.txt 代表从磁盘的根目录出发，定位到文件
-		File file = new File("src/configure.properties");
+		File file = new File("/XUEXI/网址.txt");
 		if (!file.exists()) { //如果文件不存在，则新建文件
 			try {
 				file.createNewFile();

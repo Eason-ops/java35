@@ -27,5 +27,6 @@ public class TestRemove {
 		}
 		//是一个文件
 		file.delete();
+        System.out.println("删除完成");
 	}
 }
